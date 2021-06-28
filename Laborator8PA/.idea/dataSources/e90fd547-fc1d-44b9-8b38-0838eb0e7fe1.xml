@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Oracle - @localhost">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.20">
+    <root id="1">
+      <ServerVersion>11.2.0.2.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="APPQOSSYS">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DBSNMP">
+      <ObjectId>29</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+      <CreatedTimestamp>2014-05-29.16:10:42</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-29.16:31:03</ModifiedTimestamp>
+      <IntrospectionVersion>200820</IntrospectionVersion>
+    </schema>
+    <schema id="15" parent="1" name="STUDENT">
+      <ObjectId>48</ObjectId>
+      <CreatedTimestamp>2021-02-18.16:42:34</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-19.14:46:07</ModifiedTimestamp>
+      <IntrospectionVersion>200820</IntrospectionVersion>
+      <IntrospectionTimestamp>2021-04-19.14:46:37</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="16" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <user id="20" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </user>
+    <user id="21" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </user>
+    <user id="22" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </user>
+    <user id="23" parent="1" name="APPQOSSYS">
+      <ObjectId>30</ObjectId>
+    </user>
+    <user id="24" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </user>
+    <user id="25" parent="1" name="DBSNMP">
+      <ObjectId>29</ObjectId>
+    </user>
+    <user id="26" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </user>
+    <user id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </user>
+    <user id="28" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </user>
+    <user id="29" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </user>
+    <user id="30" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </user>
+    <user id="31" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </user>
+    <user id="32" parent="1" name="STUDENT">
+      <ObjectId>48</ObjectId>
+    </user>
+    <user id="33" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </user>
+    <user id="34" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </user>
+    <user id="35" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </user>
+    <user id="36" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </user>
+    <table id="37" parent="15" name="ACTORS">
+      <ObjectId>27425</ObjectId>
+      <CreatedTimestamp>2021-04-19.14:38:07</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-19.14:38:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="38" parent="15" name="ACTORS_DIRECTORS">
+      <ObjectId>27429</ObjectId>
+      <CreatedTimestamp>2021-04-19.14:40:42</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-19.14:40:42</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="39" parent="15" name="DIRECTORS">
+      <ObjectId>27427</ObjectId>
+      <CreatedTimestamp>2021-04-19.14:38:32</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-19.14:38:32</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="40" parent="15" name="GENRES">
+      <ObjectId>27419</ObjectId>
+      <CreatedTimestamp>2021-04-18.20:13:54</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-18.20:13:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="41" parent="15" name="MOVIES">
+      <ObjectId>27417</ObjectId>
+      <CreatedTimestamp>2021-04-18.20:13:53</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-18.20:13:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="42" parent="15" name="MOVIES_ACTORS">
+      <ObjectId>27431</ObjectId>
+      <CreatedTimestamp>2021-04-19.14:45:41</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-19.14:45:41</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="43" parent="15" name="MOVIES_DIRECTORS">
+      <ObjectId>27434</ObjectId>
+      <CreatedTimestamp>2021-04-19.14:46:07</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-19.14:46:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="44" parent="15" name="MOVIES_GENRES">
+      <ObjectId>27421</ObjectId>
+      <CreatedTimestamp>2021-04-18.20:14:35</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-18.20:14:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="45" parent="37" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="37" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 byte)|0s</DataType>
+    </column>
+    <index id="47" parent="37" name="SYS_C007998">
+      <ObjectId>27426</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-19.14:38:07</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-19.14:38:07</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="48" parent="37" name="SYS_C007998">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-04-19.14:38:07</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007998</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="49" parent="38" name="ACTOR_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="38" name="DIRECTOR_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="51" parent="38" name="FK_ACTORS">
+      <ModifiedTimestamp>2021-04-19.14:40:42</ModifiedTimestamp>
+      <ColNames>ACTOR_ID</ColNames>
+      <RefSchemaName>STUDENT</RefSchemaName>
+      <RefTableName>ACTORS</RefTableName>
+      <RefKeyName>SYS_C007998</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="52" parent="38" name="FK_DIRECTORS">
+      <ModifiedTimestamp>2021-04-19.14:40:42</ModifiedTimestamp>
+      <ColNames>DIRECTOR_ID</ColNames>
+      <RefSchemaName>STUDENT</RefSchemaName>
+      <RefTableName>DIRECTORS</RefTableName>
+      <RefKeyName>SYS_C007999</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="53" parent="39" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="39" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 byte)|0s</DataType>
+    </column>
+    <index id="55" parent="39" name="SYS_C007999">
+      <ObjectId>27428</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-19.14:38:32</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-19.14:38:32</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="56" parent="39" name="SYS_C007999">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-04-19.14:38:32</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007999</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="40" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="40" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 byte)|0s</DataType>
+    </column>
+    <index id="59" parent="40" name="SYS_C007991">
+      <ObjectId>27420</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-18.20:13:54</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-18.20:13:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="40" name="SYS_C007991">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-04-18.20:13:54</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007991</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="61" parent="41" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="41" name="TITLE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 byte)|0s</DataType>
+    </column>
+    <column id="63" parent="41" name="RELEASE_DATE">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="64" parent="41" name="DURATION">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="65" parent="41" name="SCORE">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="66" parent="41" name="SYS_C007990">
+      <ObjectId>27418</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-04-18.20:13:53</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-18.20:13:53</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="41" name="SYS_C007990">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-04-18.20:13:53</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007990</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="68" parent="42" name="MOVIE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="42" name="ACTOR_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="70" parent="42" name="FK_MOVIES2">
+      <ModifiedTimestamp>2021-04-19.14:45:41</ModifiedTimestamp>
+      <ColNames>MOVIE_ID</ColNames>
+      <RefSchemaName>STUDENT</RefSchemaName>
+      <RefTableName>MOVIES</RefTableName>
+      <RefKeyName>SYS_C007990</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="71" parent="42" name="FK_ACTORS2">
+      <ModifiedTimestamp>2021-04-19.14:45:41</ModifiedTimestamp>
+      <ColNames>ACTOR_ID</ColNames>
+      <RefSchemaName>STUDENT</RefSchemaName>
+      <RefTableName>ACTORS</RefTableName>
+      <RefKeyName>SYS_C007998</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="72" parent="43" name="MOVIE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="43" name="DIRECTOR_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="74" parent="43" name="FK_MOVIES3">
+      <ModifiedTimestamp>2021-04-19.14:46:07</ModifiedTimestamp>
+      <ColNames>MOVIE_ID</ColNames>
+      <RefSchemaName>STUDENT</RefSchemaName>
+      <RefTableName>MOVIES</RefTableName>
+      <RefKeyName>SYS_C007990</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="75" parent="43" name="FK_DIRECTORS2">
+      <ModifiedTimestamp>2021-04-19.14:46:07</ModifiedTimestamp>
+      <ColNames>DIRECTOR_ID</ColNames>
+      <RefSchemaName>STUDENT</RefSchemaName>
+      <RefTableName>DIRECTORS</RefTableName>
+      <RefKeyName>SYS_C007999</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="76" parent="44" name="MOVIE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="44" name="GENRE_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <foreign-key id="78" parent="44" name="FK_MOVIES">
+      <ModifiedTimestamp>2021-04-18.20:14:35</ModifiedTimestamp>
+      <ColNames>MOVIE_ID</ColNames>
+      <RefSchemaName>STUDENT</RefSchemaName>
+      <RefTableName>MOVIES</RefTableName>
+      <RefKeyName>SYS_C007990</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="79" parent="44" name="FK_GENRES">
+      <ModifiedTimestamp>2021-04-18.20:14:35</ModifiedTimestamp>
+      <ColNames>GENRE_ID</ColNames>
+      <RefSchemaName>STUDENT</RefSchemaName>
+      <RefTableName>GENRES</RefTableName>
+      <RefKeyName>SYS_C007991</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>

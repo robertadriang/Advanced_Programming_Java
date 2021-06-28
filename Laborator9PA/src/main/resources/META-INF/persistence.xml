@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd%22%3E">
+  <persistence-unit name="HATZGIONULE">
+
+    <class>Entities.Actors</class>
+    <class>Entities.ActorsDirectors</class>
+    <class>Entities.Directors</class>
+    <class>Entities.Genres</class>
+    <class>Entities.Movies</class>
+    <class>Entities.MoviesActors</class>
+    <class>Entities.MoviesDirectors</class>
+    <class>Entities.MoviesGenres</class>
+
+    <properties>
+      <property name="hibernate.connection.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+      <property name="hibernate.connection.user" value="student"/>
+      <property name="hibernate.connection.password" value="STUDENT"/>
+      <property name="hibernate.connection.driver_class" value="oracle.jdbc.OracleDriver"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
+    </properties>
+  </persistence-unit>
+</persistence>
